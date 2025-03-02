@@ -38,7 +38,7 @@ The outputs will be displayed sequentially.
 
 ## **3. Methods Used**
 
-### **Counting Coins **
+### Counting Coins 
 
 - The image is **loaded and resized** to ensure consistent processing.
 - **Gaussian Blur** is applied to remove noise.
@@ -47,7 +47,7 @@ The outputs will be displayed sequentially.
 - The largest contour (background) is ignored, and the remaining contours represent coins.
 - The final coin count is displayed, and contours are drawn on the image.
 
-### **Panorama Stitching **
+### Panorama Stitching 
 
 - Images are **converted to grayscale** for feature extraction.
 - **SIFT (Scale-Invariant Feature Transform)** is used to detect keypoints and compute descriptors.
