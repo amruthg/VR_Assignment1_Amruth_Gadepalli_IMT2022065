@@ -103,6 +103,8 @@ These visualizations appear sequentially when the scripts are executed.
 - The images (`coins3.jpeg`, `left.jpeg`, `right.jpeg`) should be placed in the same directory as the scripts.
 - The scripts do not require any additional user input after execution.
 - If the panorama stitching fails, try using images with **more overlapping regions**.
+- The panoroma output has black edges that is because the 2 images point different angles leading in voids remaining in the stitch.
+- Assumption :  there is no need to solve the lens distortion.
 
 ---
 
